@@ -1,0 +1,20 @@
+                Algorithm - Search for an element in a list  
+
+Input: A list of numbers and an element to search for, both entered by the user  
+Output: Display whether the element is present in the list or not  
+Data Structure: List to store numbers and an integer for the element to search  
+
+Steps:-
+
+1: Start  
+2: Print "Enter the list:"  
+3: Read num_list // Convert the user input into a list of integers  
+4: Print "Which element to search for?"  
+5: Read x // x is the number to search for in the list  
+6: If x is in num_list then  
+   6.1: Print x, "is present in the list"  
+7: Else  
+   7.1: Print x, "is not present in the list"  
+8: EndIf  
+9: Stop
+

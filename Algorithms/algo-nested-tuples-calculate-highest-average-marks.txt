@@ -1,0 +1,31 @@
+                Algorithm - Determine the student with the highest average marks  
+
+Input: Number of students and their marks in six subjects  
+Output: Display the student with the highest average marks  
+Data Structure: Tuple to store each student's marks and average  
+
+Steps:-
+
+1: Start  
+2: Print "Enter the number of students:"  
+3: Read count_student // Number of students  
+4: Initialize tup ← () // Empty tuple to store marks and average for each student  
+5: Initialize max_avg ← 0 // Variable to track the highest average marks  
+6: For i from 0 to count_student - 1 do  
+   6.1: Print "Student", i + 1  
+   6.2: Read ben_marks // Marks in Bengali  
+   6.3: Read eng_marks // Marks in English  
+   6.4: Read math_marks // Marks in Math  
+   6.5: Read phy_marks // Marks in Physics  
+   6.6: Read chem_marks // Marks in Chemistry  
+   6.7: Read bio_marks // Marks in Biology  
+   6.8: Calculate avg_marks ← (ben_marks + eng_marks + math_marks + phy_marks + chem_marks + bio_marks) / 6  
+   6.9: If avg_marks > max_avg then  
+        6.9.1: Update max_avg ← avg_marks  
+        6.9.2: Update topper ← i  
+   6.10: EndIf  
+   6.11: Append (ben_marks, eng_marks, math_marks, phy_marks, chem_marks, bio_marks, avg_marks) to tup  
+7: EndFor  
+8: Print "Student with highest average marks:"  
+9: Print "Student", topper + 1, "with average marks", max_avg  
+10: Stop

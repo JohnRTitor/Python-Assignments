@@ -1,0 +1,24 @@
+            Algorithm - Character Frequency Counter  
+
+Input: A string entered by the user  
+Output: Display the frequency of each character in the string  
+Data Structure: Dictionary  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a string:"  
+3: Read input_string // String entered by the user  
+4: Convert input_string to lowercase  
+5: Initialize an empty dictionary char_freq ← {}  
+6: For each character ch in input_string do  
+   6.1: If ch is not in char_freq then  
+        6.1.1: Add ch to char_freq with value 1  
+   6.2: Else // If ch is already in char_freq  
+        6.2.1: Increment char_freq[ch] by 1  
+7: EndFor  
+8: Print "Characters present and their frequency:"  
+9: For each key-value pair ch, freq in char_freq do  
+   9.1: Print ch, ":", freq  
+10: EndFor  
+11: Stop

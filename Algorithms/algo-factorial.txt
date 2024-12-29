@@ -1,0 +1,17 @@
+                Algorithm - Calculate the factorial of a number  
+
+Input: A single integer number from the user  
+Output: Display the factorial of the entered number  
+Data Structure: Integer variable to store the result and loop counter  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a number:"  
+3: Read num // num is the number entered by the user  
+4: Initialize result ← 1 // Factorial of 0 is 1  
+5: For i from 1 to num do  
+   5.1: result ← result * i // Multiply result by the current number  
+6: EndFor  
+7: Print "Factorial of", num, "is", result  
+8: Stop

@@ -1,0 +1,28 @@
+                Algorithm - Find the union and intersection of two lists  
+
+Input: Two lists of numbers entered by the user  
+Output: Display the union and intersection of the two lists  
+Data Structure: Two input lists, one list for union, and one list for intersection  
+
+Steps:-
+
+1: Start  
+2: Print "Enter list1:"  
+3: Read list1 // Convert the user input into a list of integers  
+4: Print "Enter list2:"  
+5: Read list2 // Convert the user input into a list of integers  
+6: Initialize union_list ← [] // To store the union of the two lists  
+7: Initialize intersection_list ← [] // To store the intersection of the two lists  
+8: For each x in list1 do  
+    8.1: If x is in list2 then  
+        8.1.1: Append x to intersection_list // Add common element to intersection  
+    8.2: Else  
+        8.2.1: Append x to union_list // Add unique element from list1 to union  
+    8.3: EndIf  
+9: EndFor  
+10: For each x in list2 do  
+    10.1: Append x to union_list // Add all elements of list2 to union  
+11: EndFor  
+12: Print "Union:", union_list  
+13: Print "Intersection:", intersection_list  
+14: Stop

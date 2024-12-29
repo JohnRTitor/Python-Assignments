@@ -1,0 +1,19 @@
+                Algorithm - Extract initials and modify words in a list  
+
+Input: A list of words entered by the user  
+Output: Display the modified list of words (without their first character) and the list of initials  
+Data Structure: List to store words and a list for initials  
+
+Steps:-
+
+1: Start  
+2: Print "Enter some words:"  
+3: Read word_list // Convert the user input into a list of words  
+4: Initialize initials ← [] // List to store the initials of each word  
+5: For i from 0 to length of word_list - 1 do  
+   5.1: Append word_list[i][0] to initials // Extract the first character and add it to initials  
+   5.2: Remove the first character from word_list[i] // Modify the word by excluding the first character  
+6: EndFor  
+7: Print "New words:", word_list // Display the modified list of words  
+8: Print "Initials:", initials // Display the list of initials  
+9: Stop

@@ -1,0 +1,21 @@
+                Algorithm - Check if a string is a palindrome  
+
+Input: A string entered by the user  
+Output: Determine if the string is a palindrome and display the result  
+Data Structure: String  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a string:"  
+3: Read input_string // String entered by the user  
+4: Initialize reversed_string ← "" // Empty string to store the reversed string  
+5: For each character ch in input_string do  
+   5.1: Prepend ch to reversed_string // Build the reversed string  
+6: EndFor  
+7: If input_string.lower() == reversed_string.lower() then // Check case-insensitive equality  
+   7.1: Print input_string, "is a palindrome."  
+8: Else  
+   8.1: Print input_string, "is not a palindrome."  
+9: EndIf  
+10: Stop

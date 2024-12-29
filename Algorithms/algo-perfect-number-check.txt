@@ -1,0 +1,23 @@
+            Algorithm - Check if a number is a perfect number  
+
+Input: A single integer number from the user  
+Output: Display whether the number is a perfect number or not  
+Data Structure: Integer variable for input and sum of divisors  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a number:"  
+3: Read num // num is the number entered by the user  
+4: Initialize sum ← 0 // To store the sum of divisors  
+5: For i from 1 to num-1 do  
+   5.1: If num % i == 0 then  
+      5.1.1: Add i to sum  
+   5.2: EndIf  
+6: EndFor  
+7: If sum == num then  
+   7.1: Print num, "is a perfect number."  
+8: Else  
+   8.1: Print num, "is not a perfect number."  
+9: EndIf  
+10: Stop

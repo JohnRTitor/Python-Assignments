@@ -1,0 +1,24 @@
+                Algorithm - Store and display even pairs from user input  
+
+Input: Number of pairs and the pairs themselves, entered by the user  
+Output: Display the pairs where both numbers are even  
+Data Structure: Nested list to store pairs  
+
+Steps:-
+
+1: Start  
+2: Initialize nested_list ← [] // To store the pairs  
+3: Print "Enter the number of pairs:"  
+4: Read n // Number of pairs to be entered by the user  
+5: For i from 0 to n-1 do  
+   5.1: Print "Enter a pair:"  
+   5.2: Read pair // Convert the user input into a list of two integers  
+   5.3: Append pair to nested_list  
+6: EndFor  
+7: Print "Even pairs:"  
+8: For each pair in nested_list do  
+   8.1: If pair[0] % 2 == 0 and pair[1] % 2 == 0 then  
+       8.1.1: Print pair // Print the pair if both numbers are even  
+   8.2: EndIf  
+9: EndFor  
+10: Stop

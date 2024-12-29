@@ -1,0 +1,28 @@
+				Algorithm - Solve a quadratic equation  
+
+Input: Coefficients a, b, and c of the quadratic equation  
+Output: Display the roots of the equation  
+Data Structure: Integer variables for coefficients a, b, c, and roots  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a:"  
+3: Read a // a is the coefficient of x² in the quadratic equation  
+4: Print "Enter b:"  
+5: Read b // b is the coefficient of x in the quadratic equation  
+6: Print "Enter c:"  
+7: Read c // c is the constant term in the quadratic equation  
+8: Calculate discriminant ← b² - 4 * a * c // Formula for discriminant  
+9: If discriminant < 0 then  
+   9.1: Print "No real roots available."  
+   9.2: Stop  
+10: EndIf  
+11: Calculate root1 ← (- b + √discriminant) / (2 * a) // First root using quadratic formula  
+12: Calculate root2 ← (- b - √discriminant) / (2 * a) // Second root using quadratic formula  
+13: If discriminant > 0 then  
+   13.1: Print "Roots are:", root1, ",", root2  
+14: Else  
+   14.1: Print "Only root is:", root1  
+15: EndIf  
+16: Stop

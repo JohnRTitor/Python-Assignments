@@ -1,0 +1,23 @@
+                Algorithm - Move duplicates to the end of a list  
+
+Input: A list of numbers entered by the user  
+Output: Display the modified list with duplicates moved to the end  
+Data Structure: Lists to store the input numbers, unique numbers, and duplicates  
+
+Steps:-
+
+1: Start  
+2: Print "Enter some numbers:"  
+3: Read number_list // Convert the user input into a list of integers  
+4: Initialize unique_numbers ← [] and duplicates ← [] // Empty lists for unique numbers and duplicates  
+5: For each number in number_list do  
+   5.1: If number is in unique_numbers then  
+       5.1.1: Append number to duplicates  
+   5.2: Else  
+       5.2.1: Append number to unique_numbers  
+   5.3: EndIf  
+6: EndFor  
+7: Print "Original list:", number_list  
+8: Combine unique_numbers and duplicates into number_list  
+9: Print "List with duplicates moved to the end:", number_list  
+10: Stop

@@ -1,0 +1,19 @@
+                Algorithm - Extract words starting with 'a'  
+
+Input: A string entered by the user  
+Output: Display a list of words starting with 'a'  
+Data Structure: List to store selected words  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a string:"  
+3: Read input_string // String entered by the user  
+4: Initialize selected_words ← [] // Empty list to store words starting with 'a'  
+5: Split input_string into a list of words  
+6: For each word in the list of words do  
+   6.1: If word.lower().startswith("a") then // Check if the word starts with 'a' (case insensitive)  
+        6.1.1: Append word to selected_words  
+7: EndFor  
+8: Print "Words starting with 'a':", selected_words  
+9: Stop

@@ -1,0 +1,21 @@
+                                Algorithm - Find the frequency of a word in a sentence  
+
+Input: A sentence and a word entered by the user  
+Output: Display the frequency of the specified word in the sentence  
+Data Structure: String  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a sentence:"  
+3: Read sentence // Sentence entered by the user  
+4: Print "Which word to find frequency of?"  
+5: Read word_to_find // Word whose frequency is to be found  
+6: Initialize word_count ← 0 // Counter for the word frequency  
+7: Split sentence into a list of words  
+8: For each word in the list of words do  
+   8.1: If word.lower() == word_to_find.lower() then // Compare words case-insensitively  
+        8.1.1: Increment word_count by 1  
+9: EndFor  
+10: Print "The word '", word_to_find, "' appears", word_count, "times in the sentence."  
+11: Stop

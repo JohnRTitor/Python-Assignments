@@ -1,0 +1,23 @@
+                Algorithm - Check if a number is a palindrome  
+
+Input: A single integer number from the user  
+Output: Display whether the number is a palindrome or not  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a number:"  
+3: Read num // num is the number entered by the user  
+4: temp ← num // Store the original number in a temporary variable  
+5: reverse ← 0 // Initialize reverse to store the reversed number  
+6: While temp > 0 do  
+   6.1: digit ← temp % 10 // Extract the last digit of temp  
+   6.2: reverse ← reverse * 10 + digit // Append digit to reverse  
+   6.3: temp ← temp // 10 // Remove the last digit from temp  
+7: EndWhile  
+8: If reverse == num then  
+   8.1: Print "The number is a palindrome"  
+9: Else  
+   9.1: Print "The number is not a palindrome"  
+10: EndIf  
+11: Stop  

@@ -1,0 +1,18 @@
+                Algorithm - Reverse a list of words and the words themselves  
+
+Input: A sentence entered by the user  
+Output: Display the original list of words and the reversed list of words with each word also reversed  
+Data Structure: List to store words  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a sentence:"  
+3: Read word_list // Convert the user input into a list of words  
+4: Initialize reversed_word_list ← reverse_list(word_list) // Reverse the order of words in the list  
+5: For i from 0 to length of reversed_word_list - 1 do  
+   5.1: Reverse reversed_word_list[i] // Reverse the characters of each word in the reversed list  
+6: EndFor  
+7: Print "Original word list:", word_list  
+8: Print "Reversed word list:", reversed_word_list  
+9: Stop

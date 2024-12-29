@@ -1,0 +1,27 @@
+                Algorithm - Check if a number is prime  
+
+Input: A single integer number from the user  
+Output: Display whether the number is prime or composite  
+Data Structure: Integer variable for input and a flag for tracking primality
+
+Steps:-
+
+1: Start  
+2: Print "Enter a number:"  
+3: Read num // num is the number entered by the user  
+4: Initialize flag ← True // Flag variable to determine if the number is prime  
+5: If num is 0 or 1 then  
+   5.1: Set flag ← False // 0 and 1 are not prime numbers  
+6: EndIf  
+7: For i from 2 to (num / 2) do  
+   7.1: If num % i == 0 then  
+       7.1.1: Set flag ← False // num has a divisor, so it's composite  
+       7.1.2: Break the loop  
+   7.2: EndIf  
+8: EndFor  
+9: If flag = True then  
+   9.1: Print "The number is a prime number."  
+10: Else  
+   10.1: Print "The number is a composite number."  
+11: EndIf  
+12: Stop

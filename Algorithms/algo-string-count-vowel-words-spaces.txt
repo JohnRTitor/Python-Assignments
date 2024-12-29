@@ -1,0 +1,27 @@
+                    Algorithm - Analyze a sentence for words, vowels, consonants, and spaces  
+
+Input: A sentence entered by the user  
+Output: Display the count of words, vowels, consonants, and spaces in the sentence  
+Data Structure: String  
+
+Steps:-
+
+1: Start  
+2: Print "Enter a sentence:"  
+3: Read sentence // Sentence entered by the user  
+4: Initialize word_count ← 1, vowel_count ← 0, consonant_count ← 0, space_count ← 0  
+5: For each char in sentence do  
+   5.1: If char == " " then // Check if the character is a space  
+        5.1.1: Increment space_count by 1  
+        5.1.2: Increment word_count by 1  
+   5.2: Else if char.lower() is in ["a", "e", "i", "o", "u"] then // Check if the character is a vowel  
+        5.2.1: Increment vowel_count by 1  
+   5.3: Else if char.isalpha() then // Check if the character is a consonant  
+        5.3.1: Increment consonant_count by 1  
+6: EndFor  
+7: Print "Entered sentence:", sentence  
+8: Print "Number of words:", word_count  
+9: Print "Number of vowels:", vowel_count  
+10: Print "Number of consonants:", consonant_count  
+11: Print "Number of spaces:", space_count  
+12: Stop

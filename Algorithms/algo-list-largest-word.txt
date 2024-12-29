@@ -1,0 +1,19 @@
+                Algorithm - Find the largest word in a list of words  
+
+Input: A list of words entered by the user  
+Output: Display the largest word based on length  
+Data Structure: List to store words and a variable to hold the largest word  
+
+Steps:-
+
+1: Start  
+2: Print "Enter some words:"  
+3: Read word_list // Convert the user input into a list of words  
+4: Initialize largest_word ← word_list[0] // Set the first word as the initial largest word  
+5: For each word in word_list do
+   5.1: If length of word > length of largest_word then  
+       5.1.1: Set largest_word ← word  
+   5.2: EndIf  
+6: EndFor  
+7: Print "Largest word:", largest_word  
+8: Stop  

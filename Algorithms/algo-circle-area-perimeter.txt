@@ -1,0 +1,16 @@
+                Algorithm - Calculate the perimeter and area of a circle  
+
+Input: The radius of the circle from the user  
+Output: Display the perimeter and area of the circle  
+Data Structure: Integer variable for radius and perimeter, area  
+
+Steps:-
+
+1: Start  
+2: Print "Enter the radius:"  
+3: Read radius // radius is the radius of the circle entered by the user  
+4: Calculate perimeter ← 2 * 3.14 * radius // Formula for perimeter  
+5: Calculate area ← 3.14 * (radius ** 2) // Formula for area  
+6: Print "The perimeter is", perimeter  
+7: Print "The area is", area  
+8: Stop
