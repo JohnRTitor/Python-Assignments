@@ -1,3 +1,4 @@
+# Prompt the user to enter a string
 input_string = input("Enter a string: ")
 
 # Create an empty dictionary to store the frequency of each character
@@ -12,6 +13,7 @@ for ch in input_string.lower():
     else:
         char_freq[ch] += 1
 
+# Print the characters present and their frequency
 print("Characters present and their frequency:")
 for ch, freq in char_freq.items():
     print(f"{ch}: {freq}")
