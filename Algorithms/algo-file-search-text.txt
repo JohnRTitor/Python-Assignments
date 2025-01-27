@@ -1,0 +1,18 @@
+                Algorithm - Display Lines Containing a Specific Word in a Text File
+
+Input: File path from the user
+Output: Display lines from the text file that contain the word "Python"  
+Data Structure: String to store the current line  
+
+Steps:-
+
+1: Start  
+2: Print "Enter the path of the text file:"  
+3: Read file_path // file_path holds the path to the text file  
+4: file ← open(file_path, read)
+5: For each line in content(file)
+    5.1: If line.contains("Python") then
+        5.1.1: Print line
+    5.2: EndIf
+6: EndFor
+7: Stop

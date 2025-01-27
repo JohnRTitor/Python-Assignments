@@ -1,0 +1,14 @@
+Algorithm - Triangle Star Pattern  
+
+Input: Number of rows entered by the user  
+Output: An triangle pattern of stars printed on the console  
+
+Steps:-
+
+1. Start  
+2. Read rows
+3. For each row `i` from 0 to `rows - 1` do
+   3.1. Print spaces (`rows - i - 1`) times for alignment
+   3.2. Print stars (`2 * i + 1`) times in the same row
+   3.3. Move to the next line
+4. Stop

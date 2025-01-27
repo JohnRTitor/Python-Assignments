@@ -1,0 +1,27 @@
+                Algorithm - Find GCD and LCM of Two Numbers
+
+Input: Two positive integers from the user  
+Output: Display the GCD and LCM of the given numbers  
+
+Steps:-
+
+1: Start  
+2: Print "Enter the first number:"  
+3: Read num1
+4: Print "Enter the second number:"  
+5: Read num2  
+6: If num1 ≤ 0 OR num2 ≤ 0 then  
+    6.1: Print "Please enter positive numbers"  
+    6.2: Stop  
+7: EndIf  
+8: Initialize i ← 1, gcd ← 1 // i is a loop counter, gcd stores the greatest common divisor  
+9: While i ≤ num1 AND i ≤ num2 do  
+    9.1: If num1 % i = 0 AND num2 % i = 0 then  
+        9.1.1: gcd ← i  
+    9.2: EndIf  
+    9.3: i ← i + 1  
+10: EndWhile  
+11: Calculate lcm ← (num1 * num2) // gcd // lcm stores the least common multiple  
+12: Print "GCD of num1 and num2 is gcd"  
+13: Print "LCM of num1 and num2 is lcm"  
+14: Stop  

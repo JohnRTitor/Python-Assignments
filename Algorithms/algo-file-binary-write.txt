@@ -1,0 +1,27 @@
+                Algorithm - Save Student Data in a Binary File, Retrieve from the Binary File and Display Toppers
+
+Input: Path of the binary file, student names, and total marks from the user  
+Output: Display the toppers (students with marks greater than 500)  
+Data Structure: Dictionary to store student names and marks  
+
+Steps:-
+
+1: Start  
+2: Print "Enter the path of the text file:"  
+3: Read file_path // file_path holds the path to the binary file  
+4: file ← open(file_path, write-binary)
+5: Initialize an empty dictionary student_data
+6: For each student do
+    6.1: Read full_name, total_marks
+    6.2: student_data[full_name] ← total_0marks
+7: EndFor
+8: save(file, student_data)
+9: close(file)
+10: file ← open(file_path, read-binary)
+11: student_data ← read(file)
+12: Print "Toppers (with scores > 500): "
+13: For each student in student_data do
+    13.1: If student.total_marks > 500 then
+        13.1.1: Print student.name, student.total_marks
+    13.2: EndIf
+14: Stop

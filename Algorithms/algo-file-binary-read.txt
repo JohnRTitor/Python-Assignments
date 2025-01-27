@@ -1,0 +1,20 @@
+                Algorithm - Display Trains from Howrah to Jammu from a Binary File
+
+Input: File path of the binary file from the user  
+Output: Display trains starting from Howrah and going to Jammu  
+Data Structure: List of dictionaries, where each dictionary contains train details, such as train name, starting station and destination
+
+Steps:-
+
+1: Start  
+2: Print "Enter the path of the binary file:"
+3: Read file_path // file_path holds the path to the binary file  
+4: file ← open(file_path, read-binary)
+5. trains ← file.content()
+6: Print "Trains from Howrah to Jammu are:"  
+7: For each train in trains do
+    7.1: If train["starts"] == Howrah AND train["destination"] == Jammu then  
+        7.1.1: Print train
+    7.2: EndIf
+8: EndFor
+9: Stop  

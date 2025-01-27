@@ -1,0 +1,26 @@
+                Algorithm - Write and Display Student Data in a CSV File  
+
+Input: File path, student names, roll numbers, and average marks from the user  
+Output: Save student data in a CSV file and display the data
+Data Structure: CSV file for storing and retrieving student data  
+
+Steps:-  
+
+
+1: Start  
+2: Print "Enter the path of the csv file:"  
+3: Read  file_path //  file_path holds the path to the CSV file  
+4: file ← open(file_path, write)
+5: write_row(file, ["Name", "Roll", "Avg Marks"])
+6: For each student do
+    6.1: Read full_name, roll, avg_marks
+    6.2: write_row(file, [full_name, roll, avg_marks])
+7: EndFor
+8: close(file)
+9: file ← open(file_path, read)
+10: content ← csv_reader(file)
+11: For each row in content do
+    11.1: Print row.full_name, row.roll, row.avg_marks
+12: EndFor  
+13: close(file)
+14: Stop

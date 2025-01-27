@@ -1,0 +1,19 @@
+                Algorithm - Invert a Dictionary
+
+Input: key-value pairs from the user  
+Output: Display the original and inverted dictionaries  
+Data Structure: Dictionary to store key-value pairs  
+
+Steps:-
+
+1: Start  
+2: Print "Enter unique key-value pairs"
+3: Initialize original_dict as empty
+4: Read key, value for each dictionary element
+5: Initialize inverted_dict as empty
+6: For each key, value in original_dict do
+    6.1: inverted_dict[value] ← key
+7: EndFor
+8: Print "Original dictionary:", original_dict
+9: Print "Inverted dictionary:", inverted_dict 
+10: Stop

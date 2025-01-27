@@ -1,0 +1,36 @@
+                Algorithm - Track Player Scores and Display Information
+
+Input: Player's full name and score from the user
+Output: Display the list of players, the player with the highest score, sorted players, and players with scores 200 or more  
+Data Structure:- Dictionary to store player names and scores  
+
+Steps:-
+
+1: Start  
+2: Initialize an empty dictionary `players` to store player names and their scores  
+3: Print "Enter the player's name and score separated by spaces."
+4: Get a list of players (their names, and scores) and store it in a dictionary
+5: Print "List of players:"
+6: For each name in players do
+    6.1: Print player-name
+7: EndFor
+8: max_score ← 0
+9: For each (name, score) in `players` do  
+    9.1: If score > max_score then  
+        9.1.1: Set max_score ← score  
+        9.1.2: Set best_player_name ← name  
+    9.2: EndIf
+10: EndFor  
+11: Print best_player_name, "scoring", max_score  
+12: Sort the dictionary `players` by player names in alphabetical order  
+13: Print "Players sorted in alphabetical order:"  
+14: For each (name, score) in sorted `players` do  
+    14.1: Print name and score  
+15: EndFor
+16: Print "Players with double centuries:"  
+17: For each (name, score) in `players` do  
+    17.1: If score >= 200 then  
+        17.1.1: Print name and score 
+    17.2: EndIf  
+18: EndFor  
+19: Stop
